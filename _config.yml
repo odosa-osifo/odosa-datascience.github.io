@@ -1,0 +1,28 @@
+title: Odosa Osifo
+logo: IMG_1983.jpeg
+
+description: |
+  Data Scientist experienced in developing machine learning models and delivering data-driven solutions to inform business decisions
+
+  I specialise in building scalable end-to-end data science solutions  from data preprocessing and exploratory analysis to model development, evaluation, and deployment-ready insights.
+
+  My work focuses on:
+
+  Machine Learning & Predictive Modelling  
+  Supervised and unsupervised learning (classification, regression, clustering), feature engineering, and model evaluation (F1-score, ROC-AUC, cross-validation)
+
+  Deep Learning  
+  Neural networks using PyTorch (e.g., ResNet18 for medical image classification), model tuning, and performance optimisation
+
+  Data Analysis & Experimentation  
+  Exploratory Data Analysis (EDA), statistical testing, and extracting actionable insights from complex datasets
+
+  Tools & Technologies  
+  Python (Pandas, NumPy, Scikit-learn, PyTorch), SQL, C#, Power BI, Git, Jupyter & Colab Notebooks
+
+  Current Work  
+  Researching machine learning approaches for lung cancer risk prediction
+
+theme: jekyll-theme-minimal
+#show_downloads: true
+#google_analytics:
