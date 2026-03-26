@@ -27,7 +27,7 @@ Unlike traditional diagnostic methods (e.g., CT scans), this approach uses easil
   * Lifestyle (smoking, alcohol)
   * Symptoms (coughing, fatigue, etc.)
 
-The dataset enables prediction using **non-invasive indicators**, making the solution scalable and cost-effective.
+The dataset enables prediction using **non-invasive indicators**, making the solution scalable and cost-effective
 
 ---
 
