@@ -409,7 +409,7 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash id="71uddp"
 pip install -r requirements.txt
@@ -418,7 +418,7 @@ jupyter notebook
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Deploy model as a pricing API
 * Incorporate real-time vehicle market data
