@@ -107,6 +107,18 @@ In healthcare applications, recall is prioritised to minimise false negatives, e
 ---
 
 ## Key Results
+###  Model Comparison
+
+| Model               |Accuracy | Recall | F1 Score |
+|---------------------|---------|--------|----------|
+| Logistic Regression | 0.50      | 0.51     | 0.64|
+| Random Forest       | 0.85     | 0.96     | 0.91|
+| Gradient Boosting   | 0.68     | 0.74     | 0.80|
+| KNN                 | 0.74     | 0.82     | 0.84|
+| SVM                 | 0.82     | 0.93     | 0.90|
+| Balanced Bagging    | **0.70**  | **99%**| **0.81**|
+
+
 
 * Balanced Bagging provided the best balance between recall and precision, making it more suitable for real-world clinical applications where both false positives and false negatives matter.
 * Ensemble models achieved the best performance
