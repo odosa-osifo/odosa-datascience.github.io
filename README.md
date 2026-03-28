@@ -205,7 +205,9 @@ jupyter notebook notebooks/lung_cancer_model.ipynb
 # Project 2
 **Title: 🧬 Skin Cancer Classification Using Deep Learning**
 Automated multi-class classification of skin diseases using CNN and Transformer-based deep learning models.
+
 **Models**
+
 ![VIT](https://colab.research.google.com/drive/1hsPcLgQ2Toi7oXAe3IAfhy_L37ddR3GI)
 ![EffientNet](https://colab.research.google.com/drive/1Xhr9xQBtjzFW4M_wMF7RVcYNEztothPh)
 ![Resnet18](https://colab.research.google.com/drive/198J0s4VQucHTDFk4W2FTrR1vOkDxryF_)
