@@ -2,7 +2,7 @@
 
 # Project 1
 
-**Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning]
+**Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning](https://github.com/odosa-osifo/data-science/blob/main/Lung_Cancer_Risk_Prediction.ipynb)
 
 ## Overview
 
@@ -38,12 +38,12 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 
 ### 🔹 Data Preprocessing
 
-* Handling missing values
-* Encoding categorical variables
+* Handled missing values
+* Encoded categorical variables using One Hot + Target Encoder
 * Feature scaling
-* Train-test split with cross-validation
+* Train-test split with cross-validation (80% & 20%)
 
-### 🔹 Models Implemented
+### 🔹 Models Implemented(Classifiers)
 
 * Logistic Regression
 * Support Vector Machine (SVM)
