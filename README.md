@@ -6,9 +6,11 @@
 
 ![Overview](Lung-Cancer-Illustration-Feature.png)
 
+This project demonstrates how machine learning can be applied to real-world healthcare challenges, balancing predictive performance with model interpretability to support clinical decision-making.
+
 ## ⚡ Key Results (Quick Summary)
 - Best Model: Balanced Bagging Classifier
-- Focus Metric: High Recall(Ensemble-99% after Hyper-parameter tunning) for early detection
+- Focus Metric: High Recall (99%) to prioritise early detection of high-risk patients
 - Dataset: 20,000 patients
 - Key Features: Smoking, Age, Symptoms
 
@@ -58,7 +60,7 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 
 ### 🔹 Data Preprocessing
 
-* Handled missing values using Simple Inputer with median strategy
+* Handled missing values using Simple Imputer with median strategy
 * Encoded categorical variables using One Hot + Target Encoder
 * Feature scaling using Standard Scaler
 * Outlier Detection and Handling
@@ -88,7 +90,7 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 * ROC-AUC
 * Confusion Matrix
 
-Special focus was placed on **recall**, due to the importance of correctly identifying high-risk patients.
+In healthcare applications, recall is prioritised to minimise false negatives, ensuring high-risk patients are not missed.
 
 ### 🔹 Model Explainability
 
@@ -96,18 +98,18 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 * LIME (local interpretability)
 
 
-**Local Expalanations:**
-![Local Expalanations](01-lung-cancer-risk-prediction/assets/Local%20Explanations.png)
+**Local Explanations:**
+![Local Explanations](01-lung-cancer-risk-prediction/assets/Local%20Explanations.png)
 
-**Sharp Feature Importance:**
-![Sharp Feature Importance](01-lung-cancer-risk-prediction/assets/feature%20importance.png)
+**SHAP Feature Importance:**
+![SHAP Feature Importance](01-lung-cancer-risk-prediction/assets/feature%20importance.png)
 
 ---
 
 ## Key Results
 
+* Balanced Bagging provided the best balance between recall and precision, making it more suitable for real-world clinical applications where both false positives and false negatives matter.
 * Ensemble models achieved the best performance
-* Balanced Bagging demonstrated stronger applicability by successfully identifying a large number of true positives while simultaneously correctly identifying a majority of the true negatives avoiding extreme bias towards either class compared to other models.
 * Models successfully identified key predictors such as:
 
   * Smoking history
@@ -156,11 +158,20 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 
 ##  How to Run
 
-```bash
-pip install -r requirements.txt
-jupyter notebook
-```
+1. Clone the repository:
 
+```
+git clone https://github.com/odosa-osifo/data-science.git
+cd 01-lung-cancer-risk-prediction
+```
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+3. Run Notebook
+```
+jupyter notebook notebooks/lung_cancer_model.ipynb
+```
 ---
 
 ##  Future Improvements
@@ -168,6 +179,13 @@ jupyter notebook
 * External validation on real clinical datasets
 * Deployment as a web-based risk prediction tool
 * Integration with healthcare systems
+
+##  Skills Demonstrated
+- End-to-end machine learning pipeline development
+- Feature engineering and selection
+- Ensemble learning techniques
+- Model interpretability (SHAP, LIME)
+- Handling real-world healthcare datasets
 
 ---
 
