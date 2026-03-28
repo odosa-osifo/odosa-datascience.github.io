@@ -55,6 +55,12 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 * Outlier Detection and Handling
 * Train-test split with cross-validation (80% & 20%)
 
+### 🔹 Feature Selection
+
+* Recursive Feature Elimination (RFE)
+* Sequential Feature Selection (SFS)
+* Tree-based feature importance
+
 ### 🔹 Models Implemented(Classifiers)
 
 * Logistic Regression
@@ -63,18 +69,6 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 * Gradient Boosting
 * KNN
 * Ensemble Methods (Stacking, Bagging)
-
-### 🔹 Feature Selection
-
-* Recursive Feature Elimination (RFE)
-* Tree-based feature importance
-
-### 🔹 Model Explainability
-
-* SHAP (global & local explanations)
-* LIME (local interpretability)
-
----
 
 ## Evaluation Metrics
 
@@ -86,6 +80,11 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 * Confusion Matrix
 
 Special focus was placed on **recall**, due to the importance of correctly identifying high-risk patients.
+
+### 🔹 Model Explainability
+
+* SHAP (global & local explanations)
+* LIME (local interpretability)
 
 ---
 
@@ -147,12 +146,6 @@ jupyter notebook
 * Integration with healthcare systems
 
 ---
-
-## 🔗 Full Report
-
-This project is based on my MSc dissertation:
-
-📄 Lung Cancer Risk Prediction Dissertation
 
 
 # Project 2
