@@ -93,6 +93,11 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 * SHAP (global & local explanations)
 * LIME (local interpretability)
 
+
+
+**Sharp Feature Importance:**
+![Sharp Feature Importance](01-lung-cancer-risk-prediction/assets/feature%20importance.png)
+
 ---
 
 ## Key Results
