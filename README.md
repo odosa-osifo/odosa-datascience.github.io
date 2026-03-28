@@ -259,6 +259,7 @@ This project demonstrates the application of both convolutional neural networks 
   * Benign
   * Malignant
 
+**Class Distibution:**
  [Class Distribution](02-skin-cancer-classification/assets/class%20distribution.png)
 
 * Images resized to **224×224**
