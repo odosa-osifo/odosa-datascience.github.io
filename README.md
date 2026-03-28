@@ -94,6 +94,8 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 * LIME (local interpretability)
 
 
+**Local Expalanations:**
+![Local Expalanations](01-lung-cancer-risk-prediction/assets/Local%20Explanations.png)
 
 **Sharp Feature Importance:**
 ![Sharp Feature Importance](01-lung-cancer-risk-prediction/assets/feature%20importance.png)
@@ -144,7 +146,6 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 ```
 01-lung-cancer-risk-prediction/
 ├── notebooks/
-├── src/
 ├── assets/
 └── README.md
 ```
