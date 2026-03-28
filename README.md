@@ -4,6 +4,12 @@
 
 **Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning](https://github.com/odosa-osifo/data-science/blob/main/Lung_Cancer_Risk_Prediction.ipynb)
 
+## ⚡ Key Results (Quick Summary)
+- Best Model: Balanced Bagging
+- Focus Metric: High Recall(Ensemble-99% after Hyper-parameter tunning) for early detection
+- Dataset: 20,000 patients
+- Key Features: Smoking, Age, Symptoms
+
 ## 💼 Business / Real-World Impact
 - Enables early risk detection using low-cost, non-invasive data
 - Can support healthcare providers in prioritising high-risk patients
@@ -43,9 +49,10 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 
 ### 🔹 Data Preprocessing
 
-* Handled missing values
+* Handled missing values using Simple Inputer with median strategy
 * Encoded categorical variables using One Hot + Target Encoder
-* Feature scaling
+* Feature scaling using Standard Scaler
+* Outlier Detection and Handling
 * Train-test split with cross-validation (80% & 20%)
 
 ### 🔹 Models Implemented(Classifiers)
@@ -54,6 +61,7 @@ The dataset enables prediction using **non-invasive indicators**, making the sol
 * Support Vector Machine (SVM)
 * Random Forest
 * Gradient Boosting
+* KNN
 * Ensemble Methods (Stacking, Bagging)
 
 ### 🔹 Feature Selection
@@ -388,8 +396,8 @@ This project focuses on predicting vehicle prices using a large-scale dataset of
 
 ##  Key Insights
 
-* Feature engineering significantly improved model performance
-* Sequential Feature Selection captured feature interactions effectively
+* Feature engineering (Car_Age and Make&Model) significantly improved predictive performance, highlighting the importance of domain-informed features in regression tasks.
+* Sequential Feature Selection captured feature interactions effectively and evalated with metrics: r2 and mae
 * Tree-based ensemble models outperformed linear models
 * Random Forest provided the best balance between accuracy and generalisation
 
