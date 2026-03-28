@@ -111,7 +111,7 @@ In healthcare applications, recall is prioritised to minimise false negatives, e
 
 | Model               |Accuracy | Recall | F1 Score |
 |---------------------|---------|--------|----------|
-| Logistic Regression | 0.50      | 0.51     | 0.64|
+| Logistic Regression | 0.50     | 0.51     | 0.64|
 | Random Forest       | 0.85     | 0.96     | 0.91|
 | Gradient Boosting   | 0.68     | 0.74     | 0.80|
 | KNN                 | 0.74     | 0.82     | 0.84|
@@ -204,6 +204,7 @@ jupyter notebook notebooks/lung_cancer_model.ipynb
 
 # Project 2
 # 🧬 Skin Cancer Classification Using Deep Learning
+Automated multi-class classification of skin diseases using CNN and Transformer-based deep learning models.
 
 ## Overview
 
