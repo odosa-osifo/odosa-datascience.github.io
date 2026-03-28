@@ -4,6 +4,11 @@
 
 **Title:** [🫁 Lung Cancer Risk Prediction Using Machine Learning](https://github.com/odosa-osifo/data-science/blob/main/Lung_Cancer_Risk_Prediction.ipynb)
 
+## 💼 Business / Real-World Impact
+- Enables early risk detection using low-cost, non-invasive data
+- Can support healthcare providers in prioritising high-risk patients
+- Reduces dependency on expensive diagnostic procedures
+
 ## Overview
 
 This project focuses on predicting lung cancer risk using non-invasive lifestyle and health indicators. The goal is to build an interpretable and accurate machine learning system that can support early detection and preventive healthcare.
