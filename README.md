@@ -510,3 +510,67 @@ jupyter notebook
 * Deploy model as a pricing API
 * Incorporate real-time vehicle market data
 * Explore deep learning approaches for regression
+
+
+# Project 4
+
+**Title:** SQL Data Definition and Manipulation Language - Sales & Workplace Safety Data
+
+**SQL Code:** [Sales & Workplace Safety Data](https://github.com/odosa-osifo/odosa-osifo.github.io/blob/main/Sales_Data.sql)
+
+**SQL Skills Used:** 
+This project demonstrates the use of SQL to retrieve, transform, and analyse structured data from relational databases. The work covers employee data analysis and workplace safety incident analysis, using SQL queries to answer business questions, identify patterns, perform aggregation and generate actionable insights. 
+
+The project includes the following SQL operations:
+
+- Data Retrieval (SELECT)
+Extracted specific columns from the database, such as employee names and department information, to retrieve relevant records for analysis.
+
+- Text Transformation (UPPER, LEFT)
+Applied string functions to manipulate textual data, including converting employee names to uppercase and extracting the first four characters of employee names for formatting and analysis purposes.
+
+- Data Aggregation (COUNT)
+Calculated the number of employees within specific departments (e.g., HR) to generate summary insights about workforce distribution.
+
+- Date Functions (GETDATE)
+Retrieved the current system date using SQL date functions to demonstrate dynamic date handling within queries.
+
+- SQL Joins (LEFT, INNER)
+Joined data from multiple tables using unique identifiers to link tables and performed filtering and analysis
+
+- String Parsing (CHARINDEX)
+Extracted location names from the address column by identifying and isolating text that appears before brackets, enabling cleaner geographic data representation.
+
+- Database Structure Management (CREATE TABLE)
+Created a new table by defining its structure to support additional data storage and database organization.
+
+- Data Filtering (WHERE)
+Applied conditional filtering to retrieve only relevant records, such as employees belonging to a specific department.
+
+- Data Aggregation (COUNT, SUM, AVG)
+Used aggregate functions to calculate incident counts, total incident costs, average costs, and average days lost across different categories such as plant, department, injury location, and incident type.
+
+- Grouping and Categorisation (GROUP BY)
+Grouped records by plant, department, report type, age group, gender, incident type, shift, month, and year to identify patterns and compare safety performance across multiple dimensions.
+
+- Sorting and Ranking (ORDER BY, TOP)
+Applied sorting and ranking techniques to identify the highest-risk plants, departments, age groups, and incident types based on frequency, cost, and severity.
+
+**Project Description:** This portfolio project showcases practical SQL applications across multiple datasets, including employee records and workplace safety incident data. The objective was to demonstrate how SQL can be used to manage, query, and analyse structured business data efficiently in a relational database. 
+
+The queries performed in this project include retrieving employee and workplace safety information, transforming text data, calculating department-level summaries, extracting specific elements from string fields, and generating system date values. These operations demonstrate practical applications of SQL functions for handling real-world business data.
+
+Across the queries, SQL was used to extract relevant records, summarise trends, aggregate, filter and analyse operational performance, and support decision-making through clear and targeted reporting. Overall, the project highlights foundational SQL skills essential for data analysis, reporting, and database management.
+
+Additionally, the project includes database structure management by creating new tables to support data organization and storage.
+
+Overall, this project showcases fundamental SQL skills including data retrieval, string manipulation, aggregation, filtering, and database management, which are essential for data analysts and data scientists working with relational databases.
+
+**Technology Used:** SQL server
+
+**Recommendations:**
+- Maintain clean, well-structured, and standardised datasets to improve the accuracy and efficiency of SQL analysis.
+- Use SQL-based reporting to monitor employee data and workplace safety metrics more consistently over time.
+- Focus safety improvement efforts on high-risk plants, departments, shifts, and incident types identified in the analysis.
+- Implement regular automated reports to support faster decision-making and operational monitoring.
+
