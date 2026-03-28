@@ -213,11 +213,27 @@ Automated multi-class classification of skin diseases using CNN and Transformer-
 [Resnet18](https://colab.research.google.com/drive/198J0s4VQucHTDFk4W2FTrR1vOkDxryF_)
 [Custom_Built](https://colab.research.google.com/drive/1Qy_6YZdq-O_kyiDfx2pkdZEPrzeVoU9_)
 
+## ⚡ Key Results (Quick Summary)
+
+- Best Model: Custom EfficientNet-based model
+- Accuracy: 87%
+- Dataset: 37,000 images
+- Task: Multi-class classification (6 classes)
+- Approach: CNN vs Transformer comparison
+
+## 💼 Business / Real-World Impact
+
+- Supports early detection of skin diseases, including potential malignancies
+- Can assist dermatologists in diagnosis and reduce manual workload
+- Enables scalable AI-driven screening using medical imaging
+
 ## Overview
 
 This project focuses on building and comparing deep learning models for multi-class skin disease classification using dermatoscopic images.
 
 The objective is to evaluate the performance of CNN-based architectures and transformer-based models in detecting and classifying skin conditions, supporting early diagnosis in healthcare.
+
+This project demonstrates the application of both convolutional neural networks (CNNs) and transformer-based architectures in medical image classification.
 
 ---
 
