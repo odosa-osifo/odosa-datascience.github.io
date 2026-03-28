@@ -43,6 +43,13 @@ Unlike traditional diagnostic methods (e.g., CT scans), this approach uses easil
 
 The dataset enables prediction using **non-invasive indicators**, making the solution scalable and cost-effective
 
+**Lung Cancer Data Distribution:**
+
+![Lung Cancer Distribution](01-lung-cancer-risk-prediction/assets/Lung%20Cancer%20Distribution.png)
+
+**Correlation HeatMap:**
+![Correlation](01-lung-cancer-risk-prediction/assets/Correlation%20heatmap.png)
+
 ---
 
 ## Methodology
@@ -91,12 +98,21 @@ Special focus was placed on **recall**, due to the importance of correctly ident
 ## Key Results
 
 * Ensemble models achieved the best performance
-* Balanced Bagging demonstrated strong real-world applicability
+* Balanced Bagging demonstrated stronger applicability by successfully identifying a large number of true positives while simultaneously correctly identifying a majority of the true negatives avoiding extreme bias towards either class compared to other models.
 * Models successfully identified key predictors such as:
 
   * Smoking history
   * Age
   * Respiratory symptoms
+
+## Model Performance
+**Confusion Matrix:**
+
+![Confusion Matrix](01-lung-cancer-risk-prediction/assets/Confusion%20Matrix.png)
+
+**SHAP Summary:**
+
+![SHAP Summary](01-lung-cancer-risk-prediction/assets/Shap%20summary.png)
 
 ---
 
